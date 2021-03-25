@@ -260,7 +260,7 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
 
 As we can the maybe we can upload some files or else. Let's go.
 
-![write%20up%20-%20Artemis%20Box%205b54d4d53754444d9e62963cb4f7f489/upload.png](write%20up%20-%20Artemis%20Box%205b54d4d53754444d9e62963cb4f7f489/upload.png)
+![writeUpImg/upload.png](writeUpImg/upload.png)
 
 Nice we can upload some file. Now we know that we can write a `reverse shell` script and upload it as an image.
 
@@ -478,11 +478,11 @@ Then I took a look into it with `Ghidra` which is basically  a reverse engineeri
 
 under the functions tab of the tool, we can see the function used by our binary
 
-![write%20up%20-%20Artemis%20Box%205b54d4d53754444d9e62963cb4f7f489/Untitled.png](write%20up%20-%20Artemis%20Box%205b54d4d53754444d9e62963cb4f7f489/Untitled.png)
+![writeUpImg/Untitled.png](writeUpImg/Untitled.png)
 
 I started by look at the main function and then figured out our whois is juste a dumb `strcmp` with a value fetched from `stdin`  with a value stored in memory!
 
-![write%20up%20-%20Artemis%20Box%205b54d4d53754444d9e62963cb4f7f489/Untitled%201.png](write%20up%20-%20Artemis%20Box%205b54d4d53754444d9e62963cb4f7f489/Untitled%201.png)
+![writeUpImg/Untitled%201.png](writeUpImg/Untitled%201.png)
 
 On this screen we can see:
 
