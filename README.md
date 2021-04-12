@@ -28,7 +28,7 @@ PORT      STATE SERVICE VERSION
 80/tcp    open  http    Apache httpd 2.4.29 ((Ubuntu))
 |_http-generator: TYPO3 4.5 CMS
 |_http-server-header: Apache/2.4.29 (Ubuntu)
-|_http-title:  L'ESGI, la grande \xC3\xA9cole informatique \xC3\xA0 Paris de Bac \xC3\xA0 Bac+5
+|_http-title:  L\'ESGI, la grande \xC3\xA9cole informatique \xC3\xA0 Paris de Bac \xC3\xA0 Bac+5
 25452/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
 | ssh-hostkey: 
 |   2048 e4:e4:c3:c7:4f:8b:0e:a3:53:bc:7a:a6:0f:43:19:61 (RSA)
